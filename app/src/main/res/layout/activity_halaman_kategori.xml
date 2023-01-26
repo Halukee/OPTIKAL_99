@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HalamanKategori">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#EDDFB3"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:onClick="kkl"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="3dp"
+            app:srcCompat="@drawable/exit"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="80dp"
+            android:text="Kategori"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="320dp"
+            app:srcCompat="@drawable/tampilanhome"
+            tools:layout_editor_absoluteX="288dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:onClick="ckt"
+            android:id="@+id/imageButton18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:background="#FEFEFE"
+            app:srcCompat="@drawable/shop" />
+    </LinearLayout>
+
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+        <View
+            android:id="@+id/view1"
+            android:layout_width="410dp"
+            android:layout_height="234dp"
+            android:background="@drawable/shapeinput"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="191dp"
+            android:layout_height="209dp"
+            android:layout_marginLeft="220dp"
+            tools:srcCompat="@drawable/kategori" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You can choose glasses"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="105dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="according to your needs"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp" />
+            <View
+                android:id="@+id/view12"
+                android:layout_marginLeft="15dp"
+                android:layout_width="380dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="180dp"
+                android:background="@drawable/shapeinput8"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categories"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="195dp"
+                android:layout_marginLeft="60dp"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="278dp" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_marginLeft="30dp"
+                android:layout_width="350dp"
+                android:onClick="lls"
+                android:layout_height="80dp"
+                android:layout_marginTop="250dp"
+                android:background="@drawable/shapeinput1"/>
+
+            <ImageButton
+                android:onClick="jtu"
+                android:id="@+id/imageButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="265dp"
+                android:background="@drawable/shapeinput1"
+                android:layout_marginLeft="45dp"
+                app:srcCompat="@drawable/kategori1" />
+
+            <TextView
+                android:onClick="jtu"
+                android:id="@+id/textView5"
+                android:layout_marginLeft="190dp"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="260dp"
+                android:textSize="35dp"
+                android:text="Lensa"/>
+
+            <View
+                android:id="@+id/view14"
+                android:layout_marginLeft="30dp"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:onClick="lsn"
+                android:layout_marginTop="340dp"
+                android:background="@drawable/shapeinput1"/>
+
+            <ImageButton
+                android:onClick="rso"
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="357dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/shapeinput1"
+                app:srcCompat="@drawable/kategori2" />
+
+            <ImageButton
+                android:onClick="rso"
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="365dp"
+                android:layout_marginLeft="76dp"
+                android:background="@drawable/shapeinput1"
+                app:srcCompat="@drawable/kategori3" />
+
+            <TextView
+                android:onClick="rso"
+                android:id="@+id/textView4"
+                android:layout_marginLeft="190dp"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="355dp"
+                android:textSize="30dp"
+                android:text="Contact Lens"/>
+
+            <View
+                android:id="@+id/view15"
+                android:layout_marginLeft="30dp"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="430dp"
+                android:background="@drawable/shapeinput1"/>
+
+            <ImageButton
+                android:onClick="acs"
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="440dp"
+                android:background="@drawable/shapeinput1"
+                android:layout_marginLeft="45dp"
+                app:srcCompat="@drawable/kategori4" />
+
+            <TextView
+                android:onClick="acs"
+                android:id="@+id/textView1"
+                android:layout_marginLeft="190dp"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="440dp"
+                android:textSize="35dp"
+                android:text="Accecories"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanContact">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#EDDFB3"/>
+
+        <ImageView
+            android:id="@+id/imageView100"
+            android:onClick="kkr"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="3dp"
+            app:srcCompat="@drawable/exit"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="80dp"
+            android:text="Keranjang"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="320dp"
+            app:srcCompat="@drawable/tampilanhome"
+            tools:layout_editor_absoluteX="288dp" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:background="#FEFEFE"
+            app:srcCompat="@drawable/shop" />
+
+    </LinearLayout>
+    
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="380dp"
+                android:layout_height="500dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/shapeinput"/>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="34sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="308dp"
+                android:layout_height="55dp"
+                android:text="Jangan ragu untuk menghubungi kami dan kami akan menghubungi anda sesegera mungkin."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="300dp"
+                android:layout_height="54dp"
+                android:background="#948349"
+                android:ems="10"
+                android:hint="Nama"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="140dp"/>
+            <EditText
+                android:id="@+id/editTextTextEmailAddress2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="#948349"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="202dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="301dp"
+                android:layout_height="63dp"
+                android:background="#948349"
+                android:text="Pesan"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="260dp" />
+
+            <Button
+                android:onClick="send"
+                android:id="@+id/button6"
+                android:layout_width="77dp"
+                android:layout_height="35dp"
+                android:backgroundTint="#000000"
+                android:text="Send"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="330dp"
+                tools:layout_editor_absoluteX="278dp"
+                tools:layout_editor_absoluteY="477dp" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="380dp"
+                android:background="@drawable/shapeinput12"/>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="410dp"
+                app:srcCompat="@drawable/contact2" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08224473897"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="418dp"/>
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="42dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="480dp"
+                app:srcCompat="@drawable/contact1" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="optik99@gmail.com"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="485dp"
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="715dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:background="@drawable/contact3"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="540dp"/>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="082133218900"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="545dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

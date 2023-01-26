@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TampilanRegistrasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:onClick="kkl"
+        android:id="@+id/imageView1"
+        android:layout_width="81dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="300dp"
+        app:srcCompat="@drawable/exit" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            app:srcCompat="@drawable/login" />
+
+        <ImageView
+            android:id="@+id/logo_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/tampilanhome" />
+    </FrameLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="40dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Your Account"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/EmailRegister"
+                android:layout_width="293dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/PasswordRegister"
+                android:layout_width="293dp"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/BtnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EDDFB3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="110dp"
+                android:text="Create Account"
+                android:onClick="buttonn"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

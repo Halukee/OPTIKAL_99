@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "975891747369",
+    "project_id": "optikal99-bb31e",
+    "storage_bucket": "optikal99-bb31e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975891747369:android:dade67458130d718dac238",
+        "android_client_info": {
+          "package_name": "com.example.optikal_99"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975891747369-7vtc9bftels8pv66s2skpljsn0hke1tr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.optikal_99",
+            "certificate_hash": "24188f26a13d90b58ab87f7b6edc2639cf006f12"
+          }
+        },
+        {
+          "client_id": "975891747369-a0ed2spnunkgo2qeaafc9cben4odrdpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIKW4jBT4Jkt2oArHaShKwL_ZMAZ0hIXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975891747369-a0ed2spnunkgo2qeaafc9cben4odrdpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

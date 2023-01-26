@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OPTIKAL_99</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="tampilan_normal">Tampilan Normal</string>
+    <string name="tampilan_hybrid">Tampilan Hybrid</string>
+    <string name="tampilan_satelit">Tampilan Satelit</string>
+    <string name="tampilan_terrain">Tampilan Terrain</string>
+    <string name="API_KEY"></string>
+</resources>

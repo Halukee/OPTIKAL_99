@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FEFEFE"
+    tools:context=".HalamanUtama">
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#EDDFB3"/>
+
+            <ImageView
+                android:onClick="utama"
+                android:id="@+id/imageView18"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/menu" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="50dp"
+                android:text="Halaman Utama"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="320dp"
+                app:srcCompat="@drawable/tampilanhome"
+                tools:layout_editor_absoluteX="288dp" />
+        </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:onClick="ckt"
+            android:id="@+id/imageButton19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:background="#FEFEFE"
+            app:srcCompat="@drawable/shop" />
+
+    </LinearLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="350dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="250dp"
+                android:background="@drawable/shapeinput"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                app:srcCompat="@drawable/beranda" />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/beranda" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="50dp">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HELLO"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You can choose glasses" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="according to your needs" />
+            </LinearLayout>
+        </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="8dp">
+        <View
+            android:id="@+id/view5"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shapeinput1"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <View
+            android:id="@+id/view6"
+            android:onClick="jtu"
+            android:layout_width="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="80dp"
+            android:background="@drawable/shapeinput2"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="64dp"
+            android:onClick="jtu"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="34dp"
+            app:srcCompat="@drawable/beranda4" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="52dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:text="Lensa"
+            android:textSize="16sp"
+            android:layout_marginTop="80dp"/>
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/shapeinput2"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="64dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="129dp"
+            android:onClick="rso"
+            app:srcCompat="@drawable/beranda1" />
+
+        <ImageView
+            android:onClick="rso"
+            android:id="@+id/imageView3"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="131dp"
+            app:srcCompat="@drawable/beranda2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Lens"
+            android:textSize="16sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="110dp"/>
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="230dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shapeinput2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <ImageButton
+        android:onClick="lainnya"
+        android:id="@+id/imageButton"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="243dp"
+        android:background="#EDDFB3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599"
+        app:srcCompat="@drawable/beranda3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lainnya"
+        android:textSize="16sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp">
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="167dp"
+        android:layout_height="118dp"
+        android:background="@drawable/shapeinput3" />
+
+    <ImageView
+
+        android:id="@+id/gesture"
+        android:layout_width="162dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/lensa2" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="167dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="180dp"
+        android:background="@drawable/shapeinput3"/>
+
+    <ImageView
+
+        android:id="@+id/gesture2"
+        android:layout_width="167dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="180dp"
+        app:srcCompat="@drawable/lensa4" />
+    </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
